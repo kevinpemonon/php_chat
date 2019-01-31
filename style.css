@@ -1,0 +1,156 @@
+@media all and (max-width: 1300px){
+
+    #formulaire{
+        margin-right:100px;
+        background-image: none !important;
+    }
+
+    .reponse_date {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+body{
+    background-color: rgb(218,165,32, 0.5);
+    margin: 0;
+}
+
+#main{
+    margin: 150px 30px 0 30px;
+}
+
+
+#mini_chat{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+}
+
+
+#formulaire{
+    
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    flex: 3;
+    background-image: url('../carte.jpg');
+    background-size: 451.333px 400px;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+
+}
+
+#pseudo, #message, #boutonValider{
+    display: flex;
+    flex-direction: row;
+}
+
+#pseudo>label{
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+}
+
+#pseudo>input{
+    margin-left: 9px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+#pseudo, #message{
+    margin-left: 50px;
+}
+
+#message>label{
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    top: 35px;
+    right: 8px;
+}
+
+#message>textarea{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 150px;
+}
+
+#boutonValider{
+    width: 215px;
+    height: 50px;
+    margin-left: 205px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h2{
+    text-align: center;
+}
+
+#text_box{
+
+    flex:5;
+    background-color: white;
+    border: 3px solid black;
+    overflow: auto;
+    height: 500px;
+}
+
+#toutesLesReponses{
+
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.uneReponse{
+
+    display: flex;
+    border-top: 2px solid black;
+}
+
+#premiereReponse{
+
+    display: flex;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.reponse_pseudo{
+   
+    flex:2;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.reponse_message {
+
+    flex:4;
+    font-size: 18px;
+    overflow: auto;
+
+}
+
+.reponse_date {
+
+    flex:3;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+
+}
+
+.invisible{
+    display: none;
+}
+
+.visible{
+    display: initial;
+}
